@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.account_log_in)
 
-        // Handle "Register Now" click to navigate to SignUpActivity
         findViewById<TextView>(R.id.RegisterNowText)?.setOnClickListener {
             val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
