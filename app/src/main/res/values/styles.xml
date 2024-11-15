@@ -1,0 +1,158 @@
+<resources>
+
+    <style name="TopImgStyle">
+        <item name="android:layout_width">321dp</item>
+        <item name="android:layout_height">251dp</item>
+        <item name="android:layout_marginStart">52dp</item>
+        <item name="android:layout_marginTop">42dp</item>
+        <item name="android:contentDescription">@string/TopImage</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="WelcomeStyle">
+        <item name="android:layout_width">189dp</item>
+        <item name="android:layout_height">29dp</item>
+        <item name="android:layout_marginTop">-120dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="SignInTextStyle">
+        <item name="android:layout_width">207dp</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="EnterEmailStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">60dp</item>
+    </style>
+
+    <style name="PasswordInputStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="RememberCheckBoxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="ForgetPasswordStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@android:color/holo_purple</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NextButtonStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">100dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="NewMemberTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">120dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="RegisterNowTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#AB47BC</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TopImgSignStyle">
+        <item name="android:layout_width">321dp</item>
+        <item name="android:layout_height">251dp</item>
+        <item name="android:layout_marginStart">62dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:contentDescription">@string/TopImage</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="GetStartedTextStyle">
+        <item name="android:layout_width">210dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginTop">-118dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="ByCreatingTextStyle">
+        <item name="android:layout_width">183dp</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="FullNameInputStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+
+    <style name="ValidEmailInputStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="PhoneNumberInputStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="StrongPasswordInputStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="AgreeTermsCheckboxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="nextButton2Style">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="alreadyMemberTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">120dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="LogInTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#AB47BC</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

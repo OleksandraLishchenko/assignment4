@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AssignmentNew3</string>
+    <string name="TopImage">TopImg</string>
+    <string name="WelcomeText">Welcome back </string>
+    <string name="SignLabel">sign in to access your account</string>
+    <string name="EnterEmail">Enter your email</string>
+    <string name="Password"> Password</string>
+    <string name="CheckBox">Remember me</string>
+    <string name="ForgetPass">Forget password?</string>
+    <string name="ButtonNext">Next</string>
+    <string name="NewMember">New Member?</string>>
+    <string name="RegisterNow">Register Now</string>
+    <string name="GetStarted">Get Started</string>
+    <string name="ByCreatingLabel">by creating a free account.</string>
+    <string name="FullName">Full Name</string>
+    <string name="ValidEmail">Valid Email</string>
+    <string name="PhoneNumber">Phone number</string>
+    <string name="StrongPassword">Strong password</string>
+    <string name="AgreeCheckBox">By checking the box you agree to our Terms and Conditions.</string>
+    <string name="ButtonNextNew">Next</string>
+    <string name="AlreadyMember">Already a member?</string>
+    <string name="LogIn">Log In</string>
+
+</resources>

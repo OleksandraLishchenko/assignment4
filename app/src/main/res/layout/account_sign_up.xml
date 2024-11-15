@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/topImage"
+        android:src="@drawable/img"
+        android:contentDescription="@string/TopImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/TopImgSignStyle" />
+
+    <TextView
+        android:id="@+id/GetStartedText"
+        android:text="@string/GetStarted"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topImage"
+        tools:ignore="TextSizeCheck"
+        style="@style/GetStartedTextStyle" />
+
+    <TextView
+        android:id="@+id/ByCreatingText"
+        android:text="@string/ByCreatingLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/GetStartedText"
+        tools:ignore="TextSizeCheck"
+        style="@style/ByCreatingTextStyle" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/FullNameInput"
+        android:hint="@string/FullName"
+        app:endIconDrawable="@drawable/user"
+        app:endIconMode="custom"
+        app:boxBackgroundColor="@color/grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/GetStartedText"
+        style="@style/FullNameInputStyle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ValidEmailInput"
+        android:hint="@string/ValidEmail"
+        app:endIconDrawable="@drawable/mail"
+        app:endIconMode="custom"
+        app:boxBackgroundColor="@color/grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/FullNameInput"
+        style="@style/ValidEmailInputStyle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/PhoneNumberInput"
+        android:hint="@string/PhoneNumber"
+        app:endIconDrawable="@drawable/smartphone"
+        app:endIconMode="custom"
+        app:boxBackgroundColor="@color/grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ValidEmailInput"
+        style="@style/PhoneNumberInputStyle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/StrongPasswordInput"
+        android:hint="@string/StrongPassword"
+        app:endIconDrawable="@drawable/lock"
+        app:endIconMode="custom"
+        app:boxBackgroundColor="@color/grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/PhoneNumberInput"
+        style="@style/StrongPasswordInputStyle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/AgreeTermsCheckbox"
+        android:text="@string/AgreeCheckBox"
+        app:layout_constraintStart_toStartOf="@id/StrongPasswordInput"
+        app:layout_constraintTop_toBottomOf="@id/StrongPasswordInput"
+        tools:ignore="VisualLintButtonSize"
+        style="@style/AgreeTermsCheckboxStyle" />
+
+    <Button
+        android:id="@+id/nextButton2"
+        android:text="@string/ButtonNextNew"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/AgreeTermsCheckbox"
+        style="@style/nextButton2Style" />
+
+    <TextView
+        android:id="@+id/alreadyMemberText"
+        android:text="@string/AlreadyMember"
+        app:layout_constraintEnd_toStartOf="@id/alreadyMemberText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nextButton2"
+        style="@style/alreadyMemberTextStyle" />
+
+    <TextView
+        android:id="@+id/LogInText"
+        android:text="@string/LogIn"
+        app:layout_constraintStart_toEndOf="@id/alreadyMemberText"
+        app:layout_constraintTop_toTopOf="@id/alreadyMemberText"
+        style="@style/LogInTextStyle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
