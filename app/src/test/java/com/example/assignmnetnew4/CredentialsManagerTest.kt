@@ -1,4 +1,3 @@
-// Put your package name here. Check your activity for reference.
 package com.example.assignmnetnew4
 
 import org.junit.Assert.assertEquals
@@ -23,6 +22,7 @@ class CredentialsManagerTest {
         val credentialsManager = CredentialsManager()
         assertEquals(false, credentialsManager.isEmailValid("email@.st"))
     }
+
     // Test empty password
     @Test
     fun givenEmptyPassword_thenReturnFalse() {
@@ -34,6 +34,5 @@ class CredentialsManagerTest {
     fun givenValidPassword_thenReturnTrue() {
         val credentialsManager = CredentialsManager()
         assertEquals(true, credentialsManager.isPasswordValid("StrongP@ssw0rd"))
-
     }
 }
