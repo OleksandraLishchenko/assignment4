@@ -22,7 +22,6 @@ class CredentialsManagerTest {
         val credentialsManager = CredentialsManager()
         assertEquals(false, credentialsManager.isEmailValid("email@.st"))
     }
-
     // Test empty password
     @Test
     fun givenEmptyPassword_thenReturnFalse() {
