@@ -32,6 +32,6 @@ class CredentialsManagerTest {
     @Test
     fun givenValidPassword_thenReturnTrue() {
         val credentialsManager = CredentialsManager()
-        assertEquals(true, credentialsManager.isPasswordValid("StrongP@ssw0rd"))
+        assertEquals(true, credentialsManager.isPasswordValid("P@ssword1"))
     }
 }

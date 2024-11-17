@@ -17,6 +17,5 @@ class CredentialsManager {
         val passwordPattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[!@#\$%^&*()_+\\-=\\[\\]{};':\"|,.<>/?]).{8,}$"
         return Regex(passwordPattern).matches(password)
     }
-
 }
 
