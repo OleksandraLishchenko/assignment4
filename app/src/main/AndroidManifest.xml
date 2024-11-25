@@ -12,8 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AssignmnetNew4">
         <activity
+            android:name=".NewActivity"
+            android:exported="false" />
+        <activity
             android:name=".SignUpActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
