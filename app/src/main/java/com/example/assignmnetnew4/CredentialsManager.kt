@@ -27,7 +27,7 @@ class CredentialsManager {
         return regex.matches(email)
     }
 
-    // Valid password
+
     fun isPasswordValid(password: String): Boolean {
         val passwordPattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[!@#\$%^&*()_+\\-=\\[\\]{};':\"|,.<>/?]).{8,}$"
         return Regex(passwordPattern).matches(password)
@@ -38,14 +38,14 @@ class CredentialsManager {
     }
 
     fun register(fullName :String ,email: String,phoneNumber: String,password: String ): Boolean {
-        val edited_Email = email.lowercase() // Normalize email for case-insensitive comparison
+        val edited_Email = email.lowercase()
 
         return if (credentials.containsKey(edited_Email)) {
-            false // Email already exists
+            false
             }
             else
             {  credentials.put(edited_Email,password)
-                true // Registration successful
+                true
             }
 
     }
