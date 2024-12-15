@@ -46,7 +46,7 @@ class FragmentSampleActivity :
             replace<LoginFragment>(R.id.fragment_container_view).apply {
                 credentialsManager = this@FragmentSampleActivity.credentialsManager
             }
-            addToBackStack(null) // Allows navigating back to RegisterFragment
+            addToBackStack(null)
         }
     }
 }
