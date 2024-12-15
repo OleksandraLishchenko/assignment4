@@ -20,5 +20,7 @@
     <string name="ButtonNextNew">Next</string>
     <string name="AlreadyMember">Already a member?</string>
     <string name="LogIn">Log In</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
