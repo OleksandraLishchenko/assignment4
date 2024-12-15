@@ -1,5 +1,4 @@
 package com.example.assignmnetnew4
-
 import org.junit.Assert.assertEquals
 import org.junit.Test
 class CredentialsManagerTest {
@@ -10,6 +9,7 @@ class CredentialsManagerTest {
         val isEmailValid = credentialsManager.isEmailValid("")
         assertEquals(false, isEmailValid)
     }
+
     // Test proper email format
     @Test
     fun givenProperEmail_thenReturnTrue() {

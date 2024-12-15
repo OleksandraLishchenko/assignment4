@@ -1,6 +1,6 @@
 package com.example.assignmnetnew4
 
-class CredentialsManager {
+public class CredentialsManager {
     fun isEmailValid(email: String): Boolean {
         val emailPattern = ("[a-zA-Z0-9\\+\\.\\_\\%\\-\\+]{1,256}" +
                 "\\@" +
