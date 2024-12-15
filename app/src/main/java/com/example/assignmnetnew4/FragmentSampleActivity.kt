@@ -31,7 +31,6 @@ class FragmentSampleActivity :
     }
 
     override fun onRegisterPressed() {
-        Log.d("JoinActivity", "Switching to RegisterFragment")
         supportFragmentManager.commit {
             replace<RegisterFragment>(R.id.fragment_container_view).apply {
                 credentialsManager = this@FragmentSampleActivity.credentialsManager
@@ -41,7 +40,6 @@ class FragmentSampleActivity :
     }
 
     override fun onLoginPressed() {
-        Log.d("JoinActivity", "Switching to LoginFragment")
         supportFragmentManager.commit {
             replace<LoginFragment>(R.id.fragment_container_view).apply {
                 credentialsManager = this@FragmentSampleActivity.credentialsManager
