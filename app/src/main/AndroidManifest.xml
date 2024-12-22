@@ -12,8 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AssignmnetNew4">
         <activity
-            android:name=".NewActivity"
+            android:name=".RecipeDetailActivity"
             android:exported="false" />
+        <activity
+            android:name=".RecipeActivity"
+            android:exported="true" />
         <activity
             android:name=".SignUpActivity"
             android:exported="false" />
