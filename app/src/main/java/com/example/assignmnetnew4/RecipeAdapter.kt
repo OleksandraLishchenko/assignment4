@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class RecipeAdapter(
     private val context: Context,
-    private val recipes: List<Recipe>
+    private var recipes: List<Recipe>
 ) : RecyclerView.Adapter<RecipeAdapter.RecipeViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecipeViewHolder {
@@ -42,6 +42,13 @@ class RecipeAdapter(
         }
     }
 
+    fun updateRecipes(newRecipes: List<Recipe>) {
+        if (newRecipes != recipes) {
+            recipes = newRecipes
+            notifyDataSetChanged()
+        }
+    }
+
     class RecipeViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         private val title: TextView = view.findViewById(R.id.title)
         private val description: TextView = view.findViewById(R.id.description)
@@ -56,4 +63,5 @@ class RecipeAdapter(
         }
     }
 }
+
 
