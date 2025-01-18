@@ -12,7 +12,7 @@ class CredentialsManager {
         val regex = Regex(emailPattern)
         return regex.matches(email)
     }
-    // Valid password
+
     fun isPasswordValid(password: String): Boolean {
         val passwordPattern = "^\\d{4,}$"
         return Regex(passwordPattern).matches(password)
