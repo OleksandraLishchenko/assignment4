@@ -15,8 +15,8 @@
             android:name=".FragmentSampleActivity"
             android:exported="true" />
         <activity
-            android:name=".NewActivity"
-            android:exported="false" />
+            android:name=".RecipeActivity"
+            android:exported="true" />
         <activity
             android:name=".SignUpActivity"
             android:exported="false" />
@@ -29,7 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.mobileapp_project.FragmentSampleActivity" />
+
     </application>
 
 </manifest>
